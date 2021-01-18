@@ -4,31 +4,38 @@
         <title>create Project</title>
         <h1>PROJECT EXOPLORER</h1>
         <h2>One stop database for final year project</h2>
-        <a href="/index.html ">Home</a>
+        <a href="/Home.html ">Home</a>
         <a href="/search.html">Projects</a>
-        <a href="/createproject.html">Submit</a>
+        <a href="/createproject.html">Createproject</a>
         <a href="/login.html">Login</a>
-        <a href="/register.html">Register</a><br>
+        <a href="/register.html">Register</a>
+        <a href="/Editproject.html">Editproject</a>
+        <a href="/Viewproject.html">Viewproject</a>
+        <a href="/Search.html">Search</a>
 
 
-        <br>
-            Project Name:<br>
-        <input type="name" /><br>
+        <form action="/action_page.php">
+            <br>
+            <label for="Project Name">Project name:</label><br>
+            <input type="name" required><br>
 
-        <br>
-			Project Abstract: <br>
-			<textarea name="Abstract" > </textarea>
-    
-        <br>
-            Authors:<br>
-        <input type="authors" /><br>
-
-        <br>
-            Tags:<br>
-        <input type="tags" /><br>
-
-        <br>   
-        <input type="submit" />
+            <br>
+            <label for="Project Abstract">Project Abstract:</label><br>
+            <input type="abstract" required><br>
+        
+            
+            <br>
+            <label for="Authors">Authors:</label><br>
+            <input type="Authors" required><br>
+        
+            <br>
+            <label for="Tags">Tags:</label><br>
+            <input type="tags" required><br>
+        
+            <br>   
+            <input type="submit" /><br>
+            
+        </form>
 
     </head>
 </html>

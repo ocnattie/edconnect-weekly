@@ -4,11 +4,14 @@
         <title>Edit Project</title>
         <h1>PROJECT EXOPLORER</h1>
         <h2>One stop database for final year project</h2>
-        <a href="/index.html ">Home</a>
+        <a href="/Home.html ">Home</a>
         <a href="/search.html">Projects</a>
-        <a href="/createproject.html">Submit</a>
+        <a href="/createproject.html">Createproject</a>
         <a href="/login.html">Login</a>
-        <a href="/register.html">Register</a><br>
+        <a href="/register.html">Register</a>
+        <a href="/Editproject.html">Editproject</a>
+        <a href="/Viewproject.html">Viewproject</a>
+        <a href="/Search.html">Search</a>
 
         <h3>Project 4</h3>
         <body>
@@ -20,29 +23,33 @@
 
             <h4>Edit Project</h4>
 
-            <br>
-            Project Name:<br>
-            <input type="name" placeholder="Project 4"/><br>
-            
-           <br>
-			Project Abstract: <br>
-            <input name="abstract" placeholder="Lorem ipsum dolor sit amet,"> </textarea><br>
-            
-            <br>
-            Authors:<br>
-            <input type="Authors" placeholder="Ade Ade, Brian James"/><br>
+            <form action="/action_page.php">
+                <br>
+                <label for="Project Name">Project name:</label><br>
+                <input type="name" placeholder="Project 4" required><br>
 
-            <br>
-            Tags(s):<br>
-            <input type="tags" placeholder="#yaml, #ejs"/><br>
+                <br>
+                <label for="Project Abstract">Project Abstract:</label><br>
+                <input type="abstract" placeholder="Lorem ipsum dolor sit amet," required><br>
             
-            <br>
-            Add Project File: <br>
-            <input type ="file" name="fileupload"><br>
+                
+                <br>
+                <label for="Authors">Authors:</label><br>
+                <input type="Authors" placeholder="Ade Ade, Brian James" required><br>
+            
+                <br>
+                <label for="Tags">Tags:</label><br>
+                <input type="tags" placeholder="#yaml, #ejs" required><br>
 
-            <br>   
-            <input type="submit" /><br>
-    
+                <br>
+                <label for="Add Project File">Add Project File:</label><br>
+                <input type="file" placeholder="fileupload" required><br>
+
+            
+                <br>   
+                <input type="submit" /><br>
+
+            </form>
         </body>
     </head>
 </html>
